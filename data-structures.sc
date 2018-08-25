@@ -27,6 +27,22 @@
 ;;; Adapted to Chez Scheme
 ;;; Copyright (C) 2016 Aldo Nicolas Bruno
 
+(library (data-structures)
+	 
+	 (export
+	  identity conjoin disjoin constantly flip complement
+	  compose o list-of? each any? tail? intersperse butlast
+	  flatten chop join compress alist-update! alist-update
+	  alist-ref rassoc reverse-string-append ->string conc
+	  define-alias
+	  string-intersperse string-translate* string-chop
+	  sorted?
+	  ;merge merge! sort! sort topological-sort
+	  binary-search
+	  )
+	 (import (scheme)
+		 (srfi private include))
+
 (define-syntax d (syntax-rules () ((_ . _) (void))))
 
 (define-syntax define-alias
@@ -806,3 +822,5 @@
     (##sys#setslot q 1 newlist)
     (##sys#setslot q 2 newtail)
     (##sys#setislot q 3 (fx+ (##sys#slot q 3) (##core#inline "C_i_length" itemlist)))))
+ 
+ ）
