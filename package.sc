@@ -1,6 +1,6 @@
 (("name" . "data-structures")
 ("version" . "1.0.0")
-("description" . "")
+("description" . "CHICKEN data-structures porting for Chez Scheme")
 ("keywords"
     ("data-structures"))
 ("author" 
