@@ -1,13 +1,12 @@
-(("name" . "ballista")
-("version" . "0.5.6")
-("description" . "Ballista is a Express style web framwork for Igropyr")
+(("name" . "data-structures")
+("version" . "1.0.0")
+("description" . "")
 ("keywords"
-    ("Scheme" "web" "framework" "Igropyr"))
+    ("data-structures"))
 ("author" 
-    ("guenchi"))
+    ("Chicken team"))
 ("private" . #f)
 ("scripts")
 ("dependencies"
-    ("igropyr" . "0.2.12")
-    ("catapult" . "0.2.7"))
+    ("srfi" . "1.0.0"))
 ("devDependencies"))
