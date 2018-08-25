@@ -27,7 +27,7 @@
 ;;; Adapted to Chez Scheme
 ;;; Copyright (C) 2016 Aldo Nicolas Bruno
 
-(library (data-structures)
+(library (data-structures data-structures)
 	 
 	 (export
 	  identity conjoin disjoin constantly flip complement
